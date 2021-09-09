@@ -4,17 +4,276 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gadget Hub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/icon/1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header part -->
     <header>
-            
+        <!-- nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <div>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/icon/1 (1).png" alt="" width="130" height="50">
+                          </a>
+                    </div>
+                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item me-4 fw-bold">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                     
+                      <li class="nav-item dropdown me-4 fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Profile
+                        </a>
+                        <ul class="dropdown-menu bg-secondary text-white" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item fw-bold" href="#">Settings</a></li>
+                          <li><a class="dropdown-item fw-bold" href="#">Cart</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item fw-bold" href="#">Logout</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-4 fw-bold">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item me-4 fw-bold">
+                        <a class="nav-link" href="#">Help</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+           <!-- slider part -->
+           <section class="container margin-top margin-bottom">
+           <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  src="images/4.png" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/2.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
     </header>
-    <footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    </footer>
+<!-- main part -->
+
+    <main>
+      <section>
+        <div class="container my-5">
+          <div class="row g-5">
+           <div class="col-lg-4 col-12 col-md-6 ">
+             <div class="d-flex align-items-center  justify-content-center bg-gradient  " style="background-color:#47506b; border-radius: 20px;">
+            <h1 class="text-white me-3 text-center">Watch</h1>
+               <img src="images/watch/5.png" alt="">
+              </div> 
+           </div> 
+           <div class="col-lg-4 col-12 col-md-6">
+             <div class="d-flex align-items-center  justify-content-center bg-gradient " style="background-color:#a39a8f; border-radius: 20px;">
+            <h1 class="text-white me-3 text-center">Earphone</h1>
+               <img src="images/headphone/4.png" alt="">
+              </div> 
+           </div> 
+          
+           <div class="col-lg-4 col-12 col-md-6 ">
+             <div class="d-flex align-items-center  justify-content-center bg-gradient" style="background-color:#05070a
+             ; border-radius: 20px;">
+            <h1 class="text-white me-3 text-center">PowerBank</h1>
+               <img src="images/powerbank/1.png" alt="">
+              </div> 
+           </div>    
+          </div>
+         </div>
+      </section>
+
+      <!-- headphone part -->
+
+      <section class="container  margin-top" id="watch">
+        <h1>Head Phones</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             <img src="images/headphone/11.png" class="card-img-top bg-secondary" alt="...">
+             <div class="card-body">
+               <h3 class="card-title">Supply 350</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn  border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             <img src="images/headphone/12.png" class="card-img-top bg-secondary" alt="...">
+             <div class="card-body">
+               <h3 class="card-title">AIRPOD PRO</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn  border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             
+            <div class=" bg-secondary">
+              <img  src="images/headphone/13.png" class="card-img-top" alt="...">
+            </div>
+             <div class="card-body">
+               <h3 class="card-title">BITS</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+       </div>
+      </section>
+ 
+      <!-- watches part -->
+      <section class="container  margin-top" id="watch">
+        <h1>Watches</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             <img src="images/watch/21 (1).png" class="card-img-top bg-secondary" alt="...">
+             <div class="card-body">
+               <h3 class="card-title">Supply 350</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn  border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             <img src="images/watch/22.png" class="card-img-top bg-secondary" alt="...">
+             <div class="card-body">
+               <h3 class="card-title">AIRPOD PRO</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn  border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             
+            <div class=" bg-secondary">
+              <img  src="images/watch/23.png" class="card-img-top" alt="...">
+            </div>
+             <div class="card-body">
+               <h3 class="card-title">BITS</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+       </div>
+      </section>
+
+      <!-- powerbank -->
+      <section class="container  margin-top" id="watch">
+        <h1>PowerBank</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             <img src="images/powerbank/31.png" class="card-img-top bg-secondary" alt="...">
+             <div class="card-body">
+               <h3 class="card-title">Supply 350</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn  border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             <img src="images/powerbank/32.png" class="card-img-top bg-secondary" alt="...">
+             <div class="card-body">
+               <h3 class="card-title">AIRPOD PRO</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn  border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-100 shadow-lg border-0 rounded-3">
+             
+            <div class=" bg-secondary">
+              <img  src="images/powerbank/33.png" class="card-img-top" alt="...">
+            </div>
+             <div class="card-body">
+               <h3 class="card-title">BITS</h3>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="m-3">
+               <h3>&dollar; 120</h3>
+               <a href="#" class="btn border-0 button-color p-3 text-white fw-bold">Buy Now >></a>
+             </div>
+           </div>
+         </div>
+       </div>
+      </section>
+<!-- comment part -->
+
+<section class="container margin-top ">
+  <div class=" d-flex align-items-center  justify-content-center "  style="height: 400px;background-color:white;">
+  <form >
+      <h1>LET'S STAY IN TOUCH</h1>
+      <label for="exampleInputEmail1" class="form-label">Get updates on sales, specials and more</label><br>
+      <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+      <button type="submit" class="btn button-color p-3  text-white fw-bold border-0">Submit</button> 
+  </form>
+</div>
+ </section>
+</main>
+    </main>
+    <footer class="mt-5">
+      <p class="text-center"><small>©2020. gadget Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+ </footer>
 </body>
 </html>
