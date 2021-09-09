@@ -11,10 +11,11 @@ body{
     background-color: #c2c2c285;
 }
 .background{
-    background-image: url(images/cover.jpg);
-   ;
+    background-image: url(images/cover.jpg);;
     background-size:cover;
    
-    height: 770px;
-   
+}
+.position{
+    top: 25%;
+    left: 25%;
 }
