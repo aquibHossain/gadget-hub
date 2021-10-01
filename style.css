@@ -19,3 +19,28 @@ body{
     top: 25%;
     left: 25%;
 }
+
+#navImage:hover{
+    transition: transform 2s ease;
+    transform: skew(180deg);
+    
+}
+
+#aboutImage h1{
+    color: white;
+}
+#aboutImage:hover h1{
+    
+    animation: colors 3s linear 1s infinite alternate;
+}
+@keyframes colors{
+    0%{
+       color:rgb(11, 83, 47)
+    }
+    50%{
+        color: lightblue
+    }
+    100%{
+       color: greenyellow
+    }
+}
