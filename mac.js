@@ -1,4 +1,4 @@
-let total;
+let total=parseInt(document.getElementById("bestCost").innerText);
 function getId() {
     const deliveryCost=document.getElementById("deliveryCost")
     const memoryCost=document.getElementById("memoryCost")
